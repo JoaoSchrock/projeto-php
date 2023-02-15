@@ -22,9 +22,7 @@ Remove o setup:
 php -r "unlink('composer-setup.php');"
 
 ----------------
-
-MF -> funcoes para controller
-
+mexer no JSON
 -------
 
 php composer.phar install
