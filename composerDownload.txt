@@ -23,6 +23,8 @@ php -r "unlink('composer-setup.php');"
 
 ----------------
 mexer no JSON
+
+aDICIONAR O COMPOSER
 -------
 
 php composer.phar install
