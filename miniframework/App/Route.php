@@ -5,12 +5,27 @@ namespace App; //referenciando o diretorio App
 
 class Route
 {
+    private $routers;
+
+    //
+    public function __construct(){
+        $this->initRoutes();
+    }
+
+    public function getRouters(){
+        return $this->routers;
+    }
+
+    public function setRouters(array $routers){
+        $this->routers = $routers;
+    }
+
     public function initRoutes()
     {
         $route['home'] = array
         (
             'route' => '/',
-            'controller' => 'indexController',
+            'controlle' => 'indexController',
             'action' => 'index'
         );
 
@@ -20,6 +35,8 @@ class Route
             'controller' => 'indexController',
             'action' => 'sobreNos'
         );
+
+        $this->setRouters($route);
     }
 
     public function getUrl()
