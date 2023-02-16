@@ -1,5 +1,3 @@
-MVC - arquitetura de software
-
 Instalacao composer:
 
 https://getcomposer.org/download/
