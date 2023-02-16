@@ -2,8 +2,9 @@ Instalacao composer:
 
 https://getcomposer.org/download/
 
-prompt de comando: 
+abrir a pasta que deseja para instalacao prompt de comando: 
 
+cd <caminhoDoDiretorio>
 
 Copiar o arquivo:
 
