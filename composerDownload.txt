@@ -30,3 +30,11 @@ adicionar o composer.phar
 
 php composer.phar install
 
+
+=================
+ATIVAR SERVER PHP
+
+php -S localhost:port
+
+exemple
+php -S localhost:80
