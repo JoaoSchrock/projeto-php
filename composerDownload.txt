@@ -23,9 +23,9 @@ Remove o setup:
 php -r "unlink('composer-setup.php');"
 
 ----------------
-mexer no JSON
+mexer no JSON (já configurado)
 
-aDICIONAR O COMPOSER
+adicionar o composer.phar
 -------
 
 php composer.phar install
