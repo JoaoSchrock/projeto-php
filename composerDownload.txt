@@ -1,28 +1,28 @@
 Instalacao composer:
 
 https://getcomposer.org/download/
-
-abrir a pasta que deseja para instalacao prompt de comando: 
+--------------------------
+1 - abrir a pasta que deseja para instalacao prompt de comando: 
 
 cd <caminhoDoDiretorio>
-
-Copiar o arquivo:
+-------------------------------------
+2 - Copiar o arquivo:
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-
-Baixar o setup:
+------------------------------------------
+3 - Baixar o setup:
 
 php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-
-Instalar o composer:
+-----------------------------------
+4 - Instalar o composer:
 
 php composer-setup.php
-
-Remove o setup:
+----------------------------------
+5 - Remove o setup:
 
 php -r "unlink('composer-setup.php');"
 
-----------------
+======================================
 mexer no JSON (já configurado)
 
 adicionar o composer.phar
